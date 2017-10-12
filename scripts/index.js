@@ -1,7 +1,4 @@
 /*** @jsx React.DOM */
-import './index.css';
-import App from './App';
-
 var realReact = React.createClass({
     render: function() {
     return (<h2>Greetings, This is rendered from React hahaha!</h2>);
