@@ -94,7 +94,7 @@ var Pane = React.createClass({
   }
 });
 
-var App = React.createClass({
+var App2 = React.createClass({
 	render: function () {
   	return (
     	<div>
@@ -117,4 +117,4 @@ var App = React.createClass({
 ReactDOM.render(<App2 />, document.querySelector('.tabcontainer'));
 
 //
-//ReactDOM.render(<App />, document.getElementById('root'));
+// ReactDOM.render(<App />, document.getElementById('root'));
