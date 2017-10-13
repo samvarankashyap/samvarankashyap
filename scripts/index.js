@@ -116,5 +116,4 @@ var App2 = React.createClass({
  
 ReactDOM.render(<App2 />, document.querySelector('.tabcontainer'));
 
-//
-// ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
