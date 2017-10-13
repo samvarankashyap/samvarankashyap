@@ -8,7 +8,7 @@ ReactDOM.render(
    React.createElement(realReact, null),
    document.getElementById('content')
 );
-window.onload = React.renderComponent(
+ReactDOM.render(
         <NavBar items={data} />,
         document.querySelector('nav')
 );
